@@ -1,1 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extintores Pro - Recarga y Mantenimiento Profesional en Colombia</title>
+    <meta name="description" content="Servicio profesional de recarga, inspección y mantenimiento de extintores. Cumplimos normativas vigentes. Cobertura en Antioquia y toda Colombia. Seguridad garantizada.">
+    <meta name="keywords" content="recarga extintores, mantenimiento extintores, inspección extintores, extintores Colombia, Antioquia">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:'Roboto', sans-serif; background:#f8f9fa; color:#333; line-height:1.6; }
+        header { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1581092160560-1c1e428e9d65?auto=format&fit=crop&q=80') center/cover; color:white; text-align:center; padding:120px 20px 80px; }
+        header h1 { font-family:'Montserrat', sans-serif; font-size:3.5rem; margin-bottom:20px; text-shadow:0 2px 10px rgba(0,0,0,0.7); }
+        header p { font-size:1.4rem; max-width:800px; margin:0 auto 40px; }
+        .btn { background:#dc3545; color:white; padding:15px 40px; border-radius:50px; text-decoration:none; font-weight:600; font-size:1.2rem; display:inline-block; transition:0.3s; box-shadow:0 5px 15px rgba(220,53,69,0.4); }
+        .btn:hover { background:#c82333; transform:translateY(-3px); }
 
+        .container { max-width:1200px; margin:0 auto; padding:60px 20px; }
+        h2 { font-family:'Montserrat', sans-serif; font-size:2.8rem; color:#dc3545; text-align:center; margin-bottom:40px; }
+        .about { background:white; padding:60px 20px; border-radius:15px; box-shadow:0 10px 30px rgba(0,0,0,0.1); margin-bottom:60px; }
+        .about p { font-size:1.15rem; max-width:900px; margin:0 auto 30px; text-align:center; }
+
+        .services-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:30px; }
+        .service-card { background:white; border-radius:15px; padding:40px 25px; text-align:center; box-shadow:0 8px 25px rgba(0,0,0,0.08); transition:0.4s; }
+        .service-card:hover { transform:translateY(-15px); box-shadow:0 15px 40px rgba(220,53,69,0.2); }
+        .service-card i { font-size:3.5rem; color:#dc3545; margin-bottom:20px; }
+        .service-card h3 { font-size:1.6rem; margin-bottom:15px; color:#333; }
+        .service-card p { color:#666; }
+
+        .contact { background:#dc3545; color:white; padding:80px 20px; text-align:center; }
+        .contact h2 { color:white; }
+        .contact-info { display:flex; flex-wrap:wrap; justify-content:center; gap:40px; margin:40px 0; font-size:1.2rem; }
+        .contact-info div { display:flex; align-items:center; gap:15px; }
+        .whatsapp-flotante { position:fixed; bottom:30px; right:30px; background:#25D366; width:80px; height:80px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:45px; color:white; box-shadow:0 10px 30px rgba(37,211,102,0.5); z-index:999; transition:0.3s; }
+        .whatsapp-flotante:hover { transform:scale(1.1); }
+
+        footer { background:#222; color:#aaa; text-align:center; padding:40px 20px; font-size:0.95rem; }
+        @media (max-width:768px) {
+            header h1 { font-size:2.5rem; }
+            header { padding:80px 20px 60px; }
+            .contact-info { flex-direction:column; gap:20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Extintores Pro</h1>
+        <p>Tu aliado en seguridad contra incendios. Recarga, mantenimiento e inspección profesional de extintores en Antioquia y toda Colombia.</p>
+        <a href="https://wa.me/57TUONUMERO?text=¡Hola!%20Necesito%20servicio%20de%20recarga%20y%20mantenimiento%20de%20extintores" class="btn">
+            <i class="fab fa-whatsapp"></i> Contáctanos por WhatsApp
+        </a>
+    </header>
+
+    <div class="container">
+        <section class="about">
+            <h2>¿Quiénes Somos?</h2>
+            <p>Somos <strong>Extintores Pro</strong>, una empresa certificada y con amplia experiencia en la protección contra incendios. Nos especializamos en la <strong>recarga, inspección y mantenimiento preventivo</strong> de todo tipo de extintores (ABC, CO2, polvo químico seco, agua, etc.).</p>
+            <p>Nuestro compromiso es garantizar que tus equipos estén siempre listos para actuar, cumpliendo con las normativas vigentes de Colombia (Resolución 90708 del Ministerio de Trabajo y normas RETIE). Trabajamos con empresas, industrias, colegios, condominios y hogares en Antioquia y cobertura nacional.</p>
+            <p>Seguridad no es un gasto, es una inversión. Confía en profesionales con certificación y trayectoria.</p>
+        </section>
+
+        <section>
+            <h2>Nuestros Servicios</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Recarga de Extintores</h3>
+                    <p>Recargamos con agentes extintores de alta calidad. Incluye inspección completa, prueba de presión, sellado y etiquetado con fecha de vigencia. Servicio rápido y certificado.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Mantenimiento Preventivo</h3>
+                    <p>Inspección detallada cada 6-12 meses según norma. Revisión de válvulas, mangueras, manómetros, corrosión y peso. Mantenemos tus extintores en óptimas condiciones.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-clipboard-check"></i>
+                    <h3>Inspección y Certificación</h3>
+                    <p>Diagnóstico completo con informe técnico. Cumplimos con requisitos para bomberos, seguros y auditorías. Entregamos certificados y etiquetas de vigencia.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-truck"></i>
+                    <h3>Retiro y Entrega a Domicilio</h3>
+                    <p>Recogemos tus extintores en tu ubicación, realizamos el servicio en nuestro taller certificado y los devolvemos instalados y listos para usar.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-hard-hat"></i>
+                    <h3>Asesoría y Capacitación</h3>
+                    <p>Te orientamos en la cantidad y ubicación ideal de extintores según tu espacio. Ofrecemos charlas básicas de uso para tu equipo.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contáctanos Hoy Mismo</h2>
+            <p>Protege tu hogar, negocio o industria. Cotización gratuita y sin compromiso en menos de 5 minutos.</p>
+            <div class="contact-info">
+                <div><i class="fab fa-whatsapp fa-2x"></i> WhatsApp: +57 [TU NÚMERO]</div>
+                <div><i class="fas fa-phone fa-2x"></i> Teléfono: [TU TELÉFONO]</div>
+                <div><i class="fas fa-map-marker-alt fa-2x"></i> Medellín / Antioquia - Cobertura Nacional</div>
+                <div><i class="fas fa-envelope fa-2x"></i> Email: info@extintorespro.com</div>
+            </div>
+            <a href="https://wa.me/57TUONUMERO?text=¡Hola!%20Quiero%20cotizar%20recarga%20y%20mantenimiento%20de%20extintores" class="btn" style="background:white; color:#dc3545;">
+                <i class="fab fa-whatsapp"></i> Solicitar Cotización Gratis
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Extintores Pro - Todos los derechos reservados | Servicio certificado y confiable | Antioquia, Colombia</p>
+    </footer>
+
+    <!-- WhatsApp flotante -->
+    <a href="https://wa.me/57TUONUMERO?text=¡Hola!%20Necesito%20información%20sobre%20recarga%20de%20extintores" class="whatsapp-flotante">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script>
+        // CAMBIA ESTE NÚMERO POR EL TUYO (ej: 573001234567 sin + ni espacios)
+        const numero = "57TUONUMERO";
+        document.querySelectorAll('a[href^="https://wa.me"]').forEach(link => {
+            link.href = link.href.replace("57TUONUMERO", numero);
+        });
+    </script>
+</body>
+</html>
